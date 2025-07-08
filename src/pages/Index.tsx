@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 
 const Index = () => {
@@ -44,13 +43,9 @@ const Index = () => {
         <div className="container mx-auto px-4 text-center z-10" data-aos="fade-up">
           <div className="mb-8">
             <img 
-              src="/lovable-uploads/SreeHariPhoto.jpg" 
+              src="/lovable-uploads/d3409098-0494-4cf4-acbb-7963edc9c680.png" 
               alt="Vemula Sree Hari" 
               className="profile-img w-48 h-48 rounded-full mx-auto mb-8 border-4 border-white shadow-2xl object-cover"
-              onError={(e) => {
-                const target = e.target as HTMLImageElement;
-                target.src = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face";
-              }}
             />
           </div>
           <h1 className="hero-title text-6xl font-bold mb-4 glow-text" data-aos="fade-up" data-aos-delay="200">
